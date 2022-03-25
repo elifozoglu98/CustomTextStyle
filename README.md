@@ -79,15 +79,8 @@ CustomTextStyle.underlineStyler(MainActivity.this,underlineText,searchWord);
   # Gradient Styler
   
   With this styler, you can make a your textview gradient (linear).
-
   ```
-  -function itself is: CustomTextStyle.gradientStyler(TextView text, String textGradient, String gradientStart, String gradientEnd);
-  // the first parameter is the context, for fragments use getContext(), the second paramter must be the text of the textview.
-  ```
-  # Usage:
-    ```
 TextView textGradient;   // let's say this is the textview you want to style.
 CustomTextStyle.gradientStyler(textGradient,textGradient.getText().toString(),"#cc6877","#fc969b");
-    ```
-  
-  
+```
+
