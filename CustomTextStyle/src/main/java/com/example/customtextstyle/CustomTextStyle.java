@@ -80,8 +80,6 @@ public class CustomTextStyle {
                 new int[] {
                         Color.parseColor(gradientStart),
                         Color.parseColor(gradientEnd),
-
-
                 }, null ,Shader.TileMode.CLAMP);
         text.getPaint().setShader(shader);
     }

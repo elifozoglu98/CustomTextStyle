@@ -46,4 +46,7 @@
         android:layout_below="@id/gradientText"/>
 
 
+
+
+
 </RelativeLayout>

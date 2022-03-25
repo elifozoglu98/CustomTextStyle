@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         CustomTextStyle.underlineStyler(MainActivity.this,underlineText,searchWord);
         CustomTextStyle.customFontStyler(MainActivity.this,textCustomFont,searchWord,typeface);
         CustomTextStyle.defaultFontStyler(MainActivity.this,textDeafultFont,searchWord,face);
-        CustomTextStyle.gradientStyler(textGradient,textGradient.getText().toString(),"#fd95b5","#fc969b");
+        CustomTextStyle.gradientStyler(textGradient,searchWord,"#0000FF","#fc969b");
     }
 
 }
